@@ -113,7 +113,7 @@ color: #4d5ae5;
 
 .burger-icon {
     display: block;
-    fill: #2f2f37;
+    stroke: #2f2f37;
 }
 
 @media screen and (min-width: 768px) {
