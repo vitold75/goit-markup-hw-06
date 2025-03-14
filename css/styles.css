@@ -597,5 +597,120 @@ padding: 120px 0;
 .ourteam-card {
 width: calc((100% - 24px*3)/4);
 }
+}
+
+/* section4 */
+
+.ourportfolio {
+padding: 96px 0;
+}
+
+@media screen and (max-width: 1158px) {
+.overlay {
+    display: none;
+}
+.ourportfolio-card {
+box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+background: #fff;
+}
+}
+
+.ourportfolio-title {
+font-weight: 700;
+font-size: 36px;
+line-height: 1.11;
+letter-spacing: 0.02em;
+text-align: center;
+text-transform: capitalize;
+color: #2e2f42;
+margin-bottom: 72px;
+}
+
+.ourportfolio-flex {
+display: flex;
+flex-wrap: wrap;
+gap: 48px;
+}
+
+.ourportfolio-card {
+width: 288px;
+
+}
+
+.ourportfolio-card-app {
+padding: 32px 16px;
+border: 1px solid #e7e9fc;
+border-top: none;
+}
+
+.ourportfolio-card-title {
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: #2e2f42;
+margin-bottom: 8px;
+}
+
+.ourportfolio-card-text {
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #434455;
+}
+
+@media screen and (min-width: 768px) {
+
+.ourportfolio-flex {
+    width: 100%;
+gap: 72px 24px;
+}
+
+.ourportfolio-card {
+width: 356px;
+}
+}
+
+@media screen and (min-width: 1158px) {
+
+.ourportfolio-flex {
+width: 100%;
+gap: 48px 24px;
+margin: auto;
+justify-content: center;
+}
+
+.ourportfolio-card {
+width: calc((100%-48px)/3);
+transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.ourportfolio-card:hover {
+    box-shadow: 0 2px 1px 0 rgba(46, 47, 66, 0.08), 0 1px 1px 0 rgba(46, 47, 66, 0.16), 0 1px 6px 0 rgba(46, 47, 66, 0.08);
+background: #fff;
+}
+
+.thumb {
+    position: relative;
+    overflow: hidden;
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: #f4f4fd;
+    padding: 40px 32px;
+    background-color: #4d5ae5;
+    width: 100%;
+    height: 100%;
+    transform: translateY(100%);
+    transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.ourportfolio-card:hover .overlay {
+    transform: translateY(0%);
+}
 
 }
