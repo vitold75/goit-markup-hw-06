@@ -206,11 +206,11 @@ color: #434455;
 
 /* section3 */
 
-.ourteam {
+/* .ourteam {
 background-color: #f4f4fd;
-}
+} */
 
-.ourteam-title {
+/* .ourteam-title {
 font-weight: 700;
 font-size: 36px;
 line-height: 1.11;
@@ -219,9 +219,9 @@ text-align: center;
 text-transform: capitalize;
 color: #2e2f42;
 margin-bottom: 72px;
-}
+} */
 
-.ourteam-flex {
+/* .ourteam-flex {
 display: flex;
 gap: 24px;
 }
@@ -286,7 +286,7 @@ margin-bottom: 8px;
 .social-link:focus
 {
     background-color: #404bbf;
-}
+} */
 
 /* section4 */
 
