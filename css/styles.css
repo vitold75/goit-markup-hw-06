@@ -710,5 +710,219 @@ background: #fff;
 .ourportfolio-card:hover .overlay {
     transform: translateY(0%);
 }
+}
 
+/* futer */
+
+
+.footer-container {
+    display: flex;
+    align-items: baseline;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.page-footer {
+    
+background-color: #2e2f42;
+padding: 96px 0;
+}
+
+.footer-logo {
+display: inline-block;
+margin-bottom: 16px;
+padding: 0 86px;
+
+}
+
+.footer-logo-text {
+    margin: 0px;
+
+}
+
+.logo-part {
+color: #f4f4fd;
+}
+
+.pagefuter-text {
+line-height: 1.5;
+letter-spacing: 0.02em;
+color: #f4f4fd;
+max-width: 264px;
+margin-bottom: 72px;
+}
+
+
+.footer-social-text {
+    font-weight: 500;
+    font-size: 16;
+    line-height: 1.5;
+    letter-spacing: 0.02;
+    color: #ffffff;
+    letter-spacing: 0.02em;
+    margin-bottom: 16px;
+    text-align: center;
+}
+
+.footer-social-item {
+display: flex;
+gap: 16px;
+margin-bottom: 72px;
+}
+
+.footer-social-icon {
+    width: 40px;
+    height: 40px;
+}
+
+.footer-social-link {
+    width: 100%;
+    height: 100%;
+    background-color: #4d5ae5;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.footer-social-link:hover,
+.footer-social-link:focus {
+    background-color: #31d0aa;
+}
+
+.footer-social-link-icon {
+    fill: #f4f4fd;
+}
+
+
+.futer-form-text {
+    font-weight: 500;
+    font-size: 16;
+    line-height: 1.5;
+    color: #ffffff;
+    letter-spacing: 0.02em;
+    margin-bottom: 16px;
+    text-align: center;    
+}
+
+
+.futer-form-subscribe{
+    display: flex;
+    gap: 16px;
+    flex-wrap: wrap;
+justify-content: center;
+}
+
+.futer-subscribe-input {
+border: 1px solid #fff;
+border-radius: 4px;
+width: 288px;
+height: 40px;
+box-shadow: 0 4px 4px 0 rgba(0, 0, 0, 0.15);
+background-color: transparent;
+font-weight: 400;
+font-size: 12px;
+line-height: 2;
+letter-spacing: 0.04em;
+color: #fff;
+padding-left: 16px;
+outline: none;
+}
+
+.futer-subscribe-input::placeholder {
+font-weight: 400;
+font-size: 12px;
+line-height: 2;
+letter-spacing: 0.04em;
+color: #fff;
+}
+
+.futer-subscribe-input:hover {
+    border: 1px solid #31d0aa;
+    transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.send-button {
+display: flex;
+align-items: center;
+justify-content: center;
+flex-direction: row;
+border-radius: 4px;
+min-width: 165px;
+height: 40px;
+border: none;
+background: #4d5ae5;
+cursor: pointer;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.5;
+letter-spacing: 0.04em;
+text-align: center;
+color: #fff;
+}
+
+.send-icon {
+    margin-left: 16px;
+}
+
+.send-button:hover {
+  background-color: #31d0aa;
+  transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+@media screen and (min-width: 768px) {
+
+    .footer-container {
+    justify-content: flex-start;
+    padding: 0 108px;
+}
+
+.footer-logo {
+padding: 0;
+}
+
+.footer-logo-text {
+    margin-right: 24px;
+}
+
+.footer-social-text {
+text-align: left;
+}
+
+.futer-form-text {
+text-align: left;
+
+}
+
+.futer-form-subscribe{
+    gap: 24px;
+    flex-wrap: nowrap;
+}
+
+.futer-subscribe-input {
+width: 264px;
+}
+
+}
+
+@media screen and (min-width: 1158px) {
+
+    .footer-container {
+    flex-wrap: nowrap;
+    justify-content: center;
+    padding: 16px;
+}
+
+.page-footer {
+padding: 100px 0;
+}
+
+.footer-logo-text {
+    margin-right: 120px;
+}
+
+.futer-form {
+    margin-left: auto;
+}
 }

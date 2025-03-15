@@ -380,6 +380,10 @@ display: inline-block;
 margin-bottom: 16px;
 }
 
+.footer-logo-text {
+    margin-right: 120px;
+}
+
 .logo-part {
 color: #f4f4fd;
 }
@@ -391,9 +395,6 @@ color: #f4f4fd;
 max-width: 264px;
 }
 
-.footer-logo-text {
-margin-right: 120px;
-}
 
 .footer-social-text {
     font-weight: 500;
